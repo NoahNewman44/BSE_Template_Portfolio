@@ -84,5 +84,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 - [Github Modules](https://github.com/MagicMirrorOrg/MagicMirror/wiki/3rd-party-modules)
     - [Spotify Module](https://github.com/skuethe/MMM-Spotify)
     - [NHL Module](https://github.com/parnic/MMM-NHL)
+    - [Remote Control](https://github.com/Jopyth/MMM-Remote-Control)
 
 Also used resources such as ChatGPT and Claude for researching different ways of implementing ideas. Used Home Assistant for my google home setup aswell.
