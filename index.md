@@ -5,7 +5,7 @@ This project is a smart mirror that shows my calendar, weather, news, and even m
 |:--:|:--:|:--:|:--:|
 | Noah N | Moreau Catholic High School | Computer Engineering | Incoming Sophmore
 
-![Headstone](Project.png)
+![Headstone](IMG_3387.jpeg)
   
 # Final Milestone
 
