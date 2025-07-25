@@ -11,14 +11,12 @@ This project is a smart mirror that shows my calendar, weather, news, and even m
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BTEM8XvteKc?si=AXeX_nQJUru3l6vG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
+Since my second milestone I've made one big modification, which was the google home modification. Now I can create custom voice commands and execute them through my google home doing things such as hiding modules and turning on and off the screen. I did this by using something called home assistant, home assistant is something you can install on your pi and you can create custom switches that run commands for you on a website. Although, home assistant isn't enough by itself so I used something called nabu casa which is used in sync with home assistant and essentially exposes the commands to the internet allowing the google home to find and use them. I also added a pages module so that you can add even more modules, and on the second page I added a google calendar so you could see all the upcoming events. With the addition of the pages module I added a custom command allowing you to switch through the pages by saying "Hey google, Turn on Page 2." 
+
+This was by far my biggest challenge and triump during my time at BSE, It took me over a week through researching ways to do it, trial and error, and coding the commands, but it ended up all being worth it. I learned alot of things in hardware and software, in hardware I learned how to do simple things such as just setting up the pi. I learned alot more on the software side though as one example is learning how to ssh into visual code. I also learned how to work with github and learned alot about remote commands.
 
 
 # Second Milestone
@@ -80,5 +78,7 @@ Don't forget to place the link of where to buy each component inside the quotati
     - [Spotify Module](https://github.com/skuethe/MMM-Spotify)
     - [NHL Module](https://github.com/parnic/MMM-NHL)
     - [Remote Control](https://github.com/Jopyth/MMM-Remote-Control)
+    - [Pages Module](https://github.com/edward-shen/MMM-pages)
+
 
 Also used resources such as ChatGPT and Claude for researching different ways of implementing ideas. Used Home Assistant for my google home setup aswell.
