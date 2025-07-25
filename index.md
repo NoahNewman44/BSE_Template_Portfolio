@@ -47,16 +47,81 @@ For my next milestones, I’m planning to add even more modules such as a Spotif
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+//Home Assistant commands
+shell_command:
+  magicmirror_page_1: 'curl "http://192.168.86.23:8100/remote?action=NOTIFICATION&notification=PAGE_CHANGED&payload=0"'
+  magicmirror_page_2: 'curl "http://192.168.86.23:8100/remote?action=NOTIFICATION&notification=PAGE_CHANGED&payload=1"'
+  magicmirror_next_page: 'curl "http://192.168.86.23:8100/remote?action=NOTIFICATION&notification=PAGE_INCREMENT"'
+  magicmirror_monitor_off: 'curl "http://192.168.86.23:8100/remote?action=MONITOROFF"'
+  magicmirror_monitor_on: 'curl "http://192.168.86.23:8100/remote?action=MONITORON"'
+//Automations
+- id: monitor_off_automation
+  alias: Monitor Off
+  description: Turn monitor off when helper is toggled off
+  trigger:
+  - platform: state
+    entity_id: input_boolean.monitor_power
+    to: 'off'
+  condition: []
+  action:
+  - service: shell_command.magicmirror_monitor_off
+  mode: single
+- id: '1753293914842'
+  alias: Monitor On
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: input_boolean.monitor_power
+    to: 'on'
+  condition: []
+  action:
+  - service: shell_command.magicmirror_monitor_on
+  mode: single
+- alias: Mirror - Switch to Page 1
+  trigger:
+  - platform: state
+    entity_id: input_select.mirror_pages
+    to: Page 1
+  action:
+  - service: shell_command.magicmirror_page_1
+  mode: single
+  id: 1bb5fb9681204d62bcc03dcd5f373010
+- alias: Mirror - Switch to Page 2
+  trigger:
+  - platform: state
+    entity_id: input_select.mirror_pages
+    to: Page 2
+  action:
+  - service: shell_command.magicmirror_page_2
+  mode: single
+  id: 11dfbe0c2fbf4aa8a49358663c170113
+- id: '1753384536663'
+  alias: Page 2
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - input_button.page_2
+  conditions: []
+  actions:
+  - action: shell_command.magicmirror_page_2
+    metadata: {}
+    data: {}
+  mode: single
+- id: '1753384666182'
+  alias: Page 1
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - input_button.page_1
+  conditions: []
+  actions:
+  - action: shell_command.magicmirror_page_1
+    metadata: {}
+    data: {}
+  mode: single
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
 ```
 
 # Bill of Materials
