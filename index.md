@@ -44,7 +44,7 @@ For my next milestones, I’m planning to add even more modules such as a Spotif
 ![Headstone Image](Schematic.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.
+Here is some of my code from my Google Home setup and my module configurations
 
 ```c++
 //Home Assistant commands
