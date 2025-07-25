@@ -44,7 +44,7 @@ For my next milestones, I’m planning to add even more modules such as a Spotif
 ![Headstone Image](Schematic.png)
 
 # Code
-Here is some of my code from my Google Home setup and my module configurations
+Here is some of my code from my Google Home setup, and here is a link where you can see the main changes of my [modules](https://github.com/NoahNewman44/MagicMirrorCode/tree/main/Code)
 
 ```c++
 //Home Assistant commands
