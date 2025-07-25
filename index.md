@@ -1,5 +1,5 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Magic Mirror Project
+This project is a smart mirror that shows my calendar, weather, news, and even music info all in one place. I also added an integration of google assistant, allowing me to use custom voice commands such as switching between pages, which was the trickiest part of the whole project. Now it’s super handy and makes checking my day way easier.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Noah N | Moreau Catholic High School | Computer Engineering | Incoming Sophmore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -78,9 +78,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi 4 Starter Kit | Brains of the project, used to run and execute the code. | 91.99$ | <a href="ttps://www.amazon.com/RasTech-Raspberry-Starter-Heatsink-Screwdriver/dp/B0C8LV6VNZ/ref=sr_1_4?crid=3506HY00MCGVM&dib=eyJ2IjoiMSJ9._zkM62vSQ8p7tNr88715LdMv_qHh72Je-tkF9PXEa3chDE53QT4aZu4AGAb4ihE61QY4ZD55nKF6Fp2Kfs8t7AbafM_JrlJFfHo9OB4eAVGqa0EB-7aoBQHPmhKHZ2MW8ny-Kd44bMVlVxPlTWVk5YHIN5P3uKVqrE5Dcal0rKkHny-O6Xyb5ux2AOU6OwVbkag_bqBX66RQNRrgBuz-0pS43mcx93IZTQA9R8NaJJypYU2HAycp-XicTFmyU60a01Nfm9iuyo6B9yA8ppN3OQQyJ-NQ9xyNPxfTLwkqtng.yAYpU6outhQcZmOZhN9Wb6yTw7A85CNUbXZguGInZNg&dib_tag=se&keywords=raspberry%2Bpi%2Bkit&qid=1718848547&s=electronics&sprefix=rasbperry%2Bpi%2Bkit%2Celectronics%2C83&sr=1-4&th=1"> Link </a> |
+| Dell e2314h Monitor | Used to display the code. | 47.79$ | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.pcliquidations.com/p64773-dell-e2314hf-23-fhd?variant=85229&gad_source=1&gad_campaignid=649733014&gbraid=0AAAAAD_tUvdfrKg0msY5ZBajmJg2ZvVFY&gclid=CjwKCAjw1ozEBhAdEiwAn9qbzW5qbEnjreyRlCgAYd1zTX9p0xvop7TJ8eJH04CHFE1mMX6EjTzFcxoCbqsQAvD_BwE)"> Link </a> |
+| Sd Card Adapted | Used to download code onto SD card from my laptop. | 7.99$ | <a href="https://www.amazon.com/dp/B081VHSB2V?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"> Link </a> |
+| Keyboard and Mouse | Used to put in inputs for pi instead of just touchscreen | 21.99$ | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"> Link </a> |
+| Reflective Film | Used on the monitor to turn it into a reflective mirror-like surface. | 4/99$ | <a href="https://www.amazon.com/dp/B0998PYXSH?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1"> Link </a> |
+| Hdmi to DVI-D | Used to connect my raspberry pi to the monitor.| 5.68$ | <a href="https://www.amazon.com/DTECH-Female-Adapter-Bi-Directional-Converter/dp/B07MJDYH21/ref=sr_1_5?crid=3V9A8DCCTS3P0&dib=eyJ2IjoiMSJ9.VaMbzXVXmZIRq1rTwzIL672mK8lbpK8vf4u6hf3YLFxZc7jWfjMB-zBX04fK80-niwao6vSzw_5_QqS69uPFNA0mqVg7P4Kk7-X05jKbR8ma3UKvfJTqrm6Ynsi-oM8DtZaYYc-p4Xpw_3cwKFSe6laOytUkh0WtL5ba29PRgrnMiZcNfRSXJF5_beU1a9l1WmWHcOhmUDoIxxB6z1SU9EfpN_wiUpXNb-Xf0DiDzYc.3uJLI0VEXxcGFBYCpHmiZwm5ImklQVVYGPFK3GW0gaA&dib_tag=se&keywords=dvi+to+hdmi+adapter&qid=1752515951&sprefix=dvid+to+%2Caps%2C280&sr=8-5"> Link </a> |
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
