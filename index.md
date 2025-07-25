@@ -80,10 +80,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Hdmi to DVI-D | Used to connect my raspberry pi to the monitor.| 5.68$ | <a href="https://www.amazon.com/DTECH-Female-Adapter-Bi-Directional-Converter/dp/B07MJDYH21/ref=sr_1_5?crid=3V9A8DCCTS3P0&dib=eyJ2IjoiMSJ9.VaMbzXVXmZIRq1rTwzIL672mK8lbpK8vf4u6hf3YLFxZc7jWfjMB-zBX04fK80-niwao6vSzw_5_QqS69uPFNA0mqVg7P4Kk7-X05jKbR8ma3UKvfJTqrm6Ynsi-oM8DtZaYYc-p4Xpw_3cwKFSe6laOytUkh0WtL5ba29PRgrnMiZcNfRSXJF5_beU1a9l1WmWHcOhmUDoIxxB6z1SU9EfpN_wiUpXNb-Xf0DiDzYc.3uJLI0VEXxcGFBYCpHmiZwm5ImklQVVYGPFK3GW0gaA&dib_tag=se&keywords=dvi+to+hdmi+adapter&qid=1752515951&sprefix=dvid+to+%2Caps%2C280&sr=8-5"> Link </a> |
 
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+# Resources Used
+- [Github Modules](https://github.com/MagicMirrorOrg/MagicMirror/wiki/3rd-party-modules)
+    - [Spotify Module](https://github.com/skuethe/MMM-Spotify)
+    - [NHL Module](https://github.com/parnic/MMM-NHL)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+Also used resources such as ChatGPT and Claude for researching different ways of implementing ideas. Used Home Assistant for my google home setup aswell.
