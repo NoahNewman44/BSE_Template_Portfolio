@@ -48,7 +48,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project
 
 # Schematics 
-(Schematic.png)
+![Headstone Image](schematic.png)
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
