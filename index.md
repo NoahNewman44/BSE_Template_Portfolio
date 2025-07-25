@@ -25,11 +25,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2LTlhNodHtc?si=-czZWU8tEoXDfSN1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my milestone 2, on the technical side of things I customized the modules by changing the weather to my location and changing the news to cycle between New York Times and NBC Bay Area news. I also added 2 new modules which are the Spotify and the NHL module. The NHL module was very easy to setup and took almost no effort at all, but on the other hand the spotify module gave me a little bit of a headache. The problem I had with it was the authorization, at first I used a MMM-OnSpotify module but the authoraztion wasn't working and kept redirecting me, in the end I fixed it by using a different module called MMM-Spotify and doing it on my Pi itself. 
+
+For the hardware side of things, I upgraded to a new monitor which required 2 new parts, one was a HDMI to DVI-D cable because my monitor only accepts DVI-D, and it required a reflective film on top so the monitor would reflect like a mirror.
+
+Planning on my future milestones, I hope to have one more big customization which is connecting to my google home for custom voice commands. I also plan to have a frame and fix the issues with the air bubbles on my film.
 
 # First Milestone
 
