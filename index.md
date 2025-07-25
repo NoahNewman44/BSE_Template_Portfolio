@@ -44,7 +44,7 @@ For my next milestones, I’m planning to add even more modules such as a Spotif
 # Code
 Here is some of my code from my Google Home setup, and here is a link where you can see the main changes of my [modules.](https://github.com/NoahNewman44/MagicMirrorCode/tree/main/Code)
 
-```c++
+```python
 //Home Assistant commands
 shell_command:
   magicmirror_page_1: 'curl "http://192.168.86.23:8100/remote?action=NOTIFICATION&notification=PAGE_CHANGED&payload=0"'
